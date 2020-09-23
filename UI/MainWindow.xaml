@@ -27,15 +27,6 @@
         <TextBlock Text=" - תאריך" HorizontalAlignment="Left" Margin="281.667,113,0,0" VerticalAlignment="Top" Width="68" Foreground="#FF961BA9" TextAlignment="Right" Grid.Column="1" Height="16" Grid.Row="1"/>
         <TextBlock FlowDirection="RightToLeft" Text="שעת התחלה - " HorizontalAlignment="Left" Margin="270.667,150,0,0" VerticalAlignment="Top" Width="79" Foreground="#FF961BA9" Grid.Column="1" Height="16" Grid.Row="1"/>
         <TextBlock FlowDirection="RightToLeft" Text="שעת סיום - " HorizontalAlignment="Left" Margin="281.667,186,0,0" VerticalAlignment="Top" Width="68" Foreground="#FF961BA9" Grid.Column="1" Height="16" Grid.Row="1"/>
-        <!--<DataGrid Name="workHoursTable" AutoGenerateColumns="False" FlowDirection="RightToLeft" Margin="18,51,19.333,90.667" Grid.RowSpan="2">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="תאריך" Binding="{Binding Date}" />
-                <DataGridTextColumn Header="שעת התחלה" Binding="{Binding StartTime}" />
-                <DataGridTextColumn Header="שעת סיום" Binding="{Binding EndTime}" />
-                <DataGridTextColumn Header='סה"כ (בשעות)' Binding="{Binding TotalHours}" />
-            </DataGrid.Columns>
-        </DataGrid>-->
-
         <ListView x:Name="workHoursTable"  Margin="13,20,7.333,139.667" FlowDirection="RightToLeft" Grid.Row="1">
             <ListView.View>
                 <GridView>
@@ -60,15 +51,5 @@
         <TextBlock FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="239.667,20,0,0" VerticalAlignment="Top" Height="28" Width="85" Foreground="#FF961BA9" Grid.Row="1" FontSize="14" Grid.Column="1"><Run FlowDirection="RightToLeft" Text="ש&quot;ח לשעה:"/></TextBlock>
         <Slider Name="moneyPerHourSlider" Minimum="0" Maximum="100" Grid.Column="1" HorizontalAlignment="Left" Margin="144.667,58,0,0" Grid.Row="1" VerticalAlignment="Top" Height="19" Width="194" ValueChanged="Slider_ValueChanged"/>
         <Image Grid.Column="1" HorizontalAlignment="Left" Height="70" Margin="342.667,17,0,0" VerticalAlignment="Top" Width="70" Source="dolarEmoji.png" Grid.RowSpan="2"/>
-
-        <!--<ListView Name="workHoursList" ItemsSource="{Binding}">
-            <ListView.View>
-                <GridView>
-                    -->
-        <!-- The columns here -->
-        <!--
-                </GridView>
-            </ListView.View>
-        </ListView>-->
     </Grid>
 </Window>

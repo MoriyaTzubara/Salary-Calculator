@@ -91,19 +91,9 @@ namespace UI
             salary.Text = BL.getWork().GetTotalSalary().ToString("0.00") + "₪";
             ICollectionView view = CollectionViewSource.GetDefaultView(BL.getWork().WorkHours);
             view.Refresh();
-            //workHours.Items.Add(work.WorkHours);
-            //InitializeComponent();
-            //workHoursTable.ItemsSource = work.WorkHours;
-            //StartHoursCBox.ItemsSource = EndHoursCBox.ItemsSource = hours;
-            //StartMinutesCBox.ItemsSource = EndMinutesCBox.ItemsSource = minutes;
-            //salary.Text = work.GetSalary().ToString("0.00") + "₪";
         }
 
-        private void UpdateMoneyPerHour_Click(object sender, RoutedEventArgs e)
-        {
-            //perHours.Text
-        }
-
+        
         private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             try
