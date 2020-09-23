@@ -33,13 +33,6 @@ using System.Threading.Tasks;
         {
             WorkHours.Add(new WorkHours() { Start = start, End = end });
         }
-        //public void deleteTime(List<WorkHours> workHoursToDelete)
-        //{
-        //    foreach (var workHour in workHoursToDelete)
-        //    {
-        //        WorkHours.RemoveAll(wh => wh.Id == workHour.Id);
-        //    }
-        //}
         public void deleteTime(IEnumerable<WorkHours> workHoursToDelete)
         {
             foreach (var workHour in workHoursToDelete)
