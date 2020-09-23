@@ -13,7 +13,6 @@ namespace BL
         double GetTotalHours();
         double GetTotalSalary();
         void addTime(DateTime start, DateTime end);
-        //void deleteTime(List<WorkHours> workHoursToDelete);
         void deleteTime(IEnumerable<WorkHours> workHoursToDelete);
     }
 }
