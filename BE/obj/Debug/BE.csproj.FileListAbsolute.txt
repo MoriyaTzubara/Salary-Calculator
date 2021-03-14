@@ -9,3 +9,8 @@ C:\Users\User\source\repos\salary_calculator\salary_calculator\BE\bin\Debug\BE.p
 C:\Users\User\source\repos\salary_calculator\salary_calculator\BE\obj\Debug\BE.csprojAssemblyReference.cache
 C:\Users\User\source\repos\salary_calculator\salary_calculator\BE\obj\Debug\BE.exe
 C:\Users\User\source\repos\salary_calculator\salary_calculator\BE\obj\Debug\BE.pdb
+C:\Users\User\salary-calculator\BE\obj\Debug\BE.pdb
+C:\Users\User\salary-calculator\BE\bin\Debug\BE.dll.config
+C:\Users\User\salary-calculator\BE\bin\Debug\BE.dll
+C:\Users\User\salary-calculator\BE\bin\Debug\BE.pdb
+C:\Users\User\salary-calculator\BE\obj\Debug\BE.dll
