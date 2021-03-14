@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Work xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MoneyPerHour>50.2732240437158</MoneyPerHour>
+  <WorkHours>
+    <WorkHours>
+      <Id>1009</Id>
+      <Start>2020-10-08T00:00:00</Start>
+      <End>2020-10-08T04:05:00</End>
+    </WorkHours>
+    <WorkHours>
+      <Id>1001</Id>
+      <Start>2020-10-01T04:04:00</Start>
+      <End>2020-10-01T17:04:00</End>
+    </WorkHours>
+    <WorkHours>
+      <Id>1002</Id>
+      <Start>2020-10-01T15:09:00</Start>
+      <End>2020-10-01T20:07:00</End>
+    </WorkHours>
+  </WorkHours>
+</Work>

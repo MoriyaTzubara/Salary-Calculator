@@ -12,7 +12,8 @@ namespace DAL
     public class DAL : IDAL
     {
         static Work work = new Work();
-        string path = "WorkXML.xml";
+        string path = "..\\..\\..\\DAL\\data\\WorkXML.xml";
+        
         public DAL()
         {
             work = loadDataFromXML(path);
